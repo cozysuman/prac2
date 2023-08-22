@@ -1,0 +1,32 @@
+body {
+    margin: 60px 0 0 60px;
+    font-family: Arial, sans-serif;
+  }
+.content-area {
+    max-width: 600px;
+  }
+  
+.content-area h1,h2 {
+    margin: 0;
+    padding: 0;
+  }
+.content-area h1{
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 36px;
+    font-weight: bold;
+    columns: #000; 
+}
+.content-area h2{
+    padding-top: 10px; 
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;    
+}  
+p {
+    text-align: justify;
+    line-height: 1.3;
+    padding-left: 10px;
+  }
+  
+  

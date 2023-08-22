@@ -1,0 +1,75 @@
+body{
+    margin: 60px 0 0 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #263238 ;
+    background-image: url(../images/phone.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+ul {
+    list-style-type: none;
+  }
+h1,h2,ul{
+    margin: 0;
+    padding: 0;
+}
+.content-area{
+    width: 600px;
+}
+.content-area h1{
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 36px;
+    font-weight: bold;
+    columns: #000; 
+}
+.content-area h2{
+    padding-top: 10px; 
+    font-size: 16px;
+    font-weight: normal;    
+}
+.content-area li {
+    padding-top: 20px; 
+    padding-left: 10px;   
+}
+
+.content-area input,textarea{
+    width: 500px;
+    padding: 6px;
+    margin: 3px 0;
+    border: 1px solid #d4dadc;
+}
+.content-area label{
+    display: block;   
+}
+.content-area input:focus,textarea:focus{
+    outline: none;
+    border-color: #263238;
+}
+.content-area input[type="submit"] {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    background-color: #1565c0;
+    padding: 10px 25px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+input[type="submit"]:hover {
+    background-color: #0d47a1;
+  }
+
+/* Privacy Policy Styles */
+.form li:last-child {
+    font-size: 12px;
+  } 
+.form a {
+    text-decoration: none;
+    color: #1565c0;
+  }  
+.form a:hover {
+    text-decoration: underline;
+  }

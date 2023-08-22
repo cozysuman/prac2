@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content=" Suman Khatri" />
+    <meta name="description" content="Practical 2" />
+    <link rel="stylesheet" href="./styles/styles.css"/>
+    
+    <title>Practical 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>Hello, <b id="player-name"></b>. Let's begin.</p>
+
+      <div id="quiz">
+        <p class="question-no">Question N</p>
+        <p>Question text should appear here</p>
+        <ul>
+          <li>
+            <input type="radio" name="choices" id="A" value="A" />
+            <label for="A" id="choice-A">Choice A</label>
+          </li>
+          <li>
+            <input type="radio" name="choices" id="B" value="B" />
+            <label for="B" id="choice-B">Choice B</label>
+          </li>
+          <li>
+            <input type="radio" name="choices" id="C" value="C" />
+            <label for="C" id="choice-C">Choice C</label>
+          </li>
+        </ul>
+      </div>
+
+      <div id="results">
+        <p>Your final score was ?</p>
+      </div>
+
+      <input class ="button" type="button" value="Next" />
+    </div>
+    <script src="./scripts/my-script.js" > </script>
+    <script type="script" src="./scripts/provided-script.js" defer> </script>
+  </body>
+
+</html>

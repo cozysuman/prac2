@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content=" Suman Khatri" />
+    <meta name="description" content="Practical 2" />
+    <link rel="stylesheet" href="./styles/styles.css"/>
+    <title>Practical 2</title>
+    
+  </head>
+  <body>
+    <div class="container">
+      <h1><b>Welcome to the WebDev quiz.</b></h1>
+      <form action="quiz.html" method="get">
+        <div class="content">
+            <label>What is your name?</label>
+            <input type="text" class="name" name="name" placeholder="Required" minlength="2" required />
+
+            <label>How old are you?</label>
+            <input class="number" type="number" name="age" min="10" max="100" />
+
+            <label>What is your email address?</label>
+            <input class="email" type="email" name="email" />
+        </div>
+        <input class="button" type="submit" value="Begin" />
+      </form>
+    </div>
+  </body>
+</html>
