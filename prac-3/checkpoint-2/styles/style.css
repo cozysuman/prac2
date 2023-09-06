@@ -1,0 +1,50 @@
+/* Reset default margin for the entire page */
+body {
+    margin: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+/* Style the headings */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style the paragraph/list items */
+ul.task-list li {
+    line-height: 1.5em;
+}
+
+/* Style the menu */
+ul#menu {
+    display: flex;
+    padding-bottom: 10px;
+    margin: 0 0 30px; 
+    border-bottom: 1px solid #ddd; 
+}
+
+ul#menu li {
+    float: left;
+    margin-right: 15px;  
+}
+
+ul#menu li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+ul#menu li a:hover {
+    color: #1565c0; /* Change color on hover */
+}
+
+/* Style the selected menu item */
+ul#menu li a.selected {
+    font-weight: bold;
+    color: #1565c0;
+}

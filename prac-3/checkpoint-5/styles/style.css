@@ -1,0 +1,101 @@
+/* Reset default margin for the entire page */
+body {
+    margin: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+ul,a{
+    list-style: none;
+    padding: 0;
+}
+/* Style the headings */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style the paragraph/list items */
+ul.task-list li {
+    line-height: 1.5em;
+}
+
+/* Style the menu */
+ul#menu {
+    display: flex;
+    padding-bottom: 10px;
+    margin: 0 0 30px; 
+    border-bottom: 1px solid #ddd; 
+}
+
+ul#menu li {
+    float: left;
+    margin-right: 15px;  
+}
+
+ul#menu li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+ul#menu li a:hover {
+    color: #1565c0; /* Change color on hover */
+}
+
+/* Style the selected menu item */
+ul#menu li a.selected {
+    font-weight: bold;
+    color: #1565c0;
+}
+/* Style for all input elements */
+input[type="text"] {
+    display: block;
+    border: 1px solid #babdbe;
+    padding: 3px 6px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+/* Style for the submit button */
+.submit-button {
+    background-color: silver;
+    border: 1px solid silver;
+    color: black;
+    padding: 3px 6px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    color: #fff; /* Change color on hover */
+    background-color: #1565C0; /* Change background color on hover */
+}
+/* Style for task anchor elements */
+ul.task-list a {
+    text-decoration: none; /* Remove underline */
+    color: black;
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth transitions */
+}
+
+ul.task-list a:hover {
+    color: #1565c0; /* Change color on hover */
+    text-decoration: line-through; /* Add line-through on hover */
+}
+
+/* Style for completed tasks */
+.completed-tasks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.completed-tasks li {
+    color: #9e9e9e; /* Set the text color */
+    text-decoration: line-through; /* Add line-through decoration */
+    margin-bottom: 10px;
+}
+.task-number{
+    padding: 0;
+    margin: 0;
+    color: #babdbe;
+}
